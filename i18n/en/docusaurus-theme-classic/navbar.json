@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "Rakuten Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Products": {
+    "message": "Products",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutorials",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.RAT Analytics Services and Tools": {
+    "message": "RAT Analytics Services and Tools",
+    "description": "Navbar item with label RAT Analytics Services and Tools"
+  }
+}

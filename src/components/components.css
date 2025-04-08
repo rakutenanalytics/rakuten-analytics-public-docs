@@ -1,0 +1,72 @@
+.label {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.1rem 0.5rem 2rem 0;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #00a0f0;
+    border-radius: 16px;
+    height: 32px;
+    line-height: 30px;
+    justify-content: center;
+    background-color: none;
+}
+
+.navigation-labels {
+    display: flex;
+}
+  
+
+.highlight {
+    background-color: #00a0f0;
+}
+
+.highlight::before {
+    position: absolute;
+    left: 8px; /* Adjust position as needed */
+    color: #1c1e21; /* Same color as text */
+}
+
+:root {
+    --borderWidth: 4px;
+    --height: 17px;
+    --width: 7px;
+    --borderColor: #1c1e21;
+ }
+
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+    margin-right: 12px;
+    margin-left: 6px;
+}
+
+.card {
+  display: flex;
+  flex: 0 0 40%;
+  margin: 10px 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__image {
+object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+   min-width: 40px;
+   width: 60%;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
