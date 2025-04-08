@@ -9,7 +9,7 @@ title: Frequently Asked Questions
 
 ### Build and run module
 
-* Clone or fork the [iOS analytics repository](https://github.com/rakutenanalytics/ios-analytics)  
+* Clone or fork the [iOS analytics repository](https://github.com/rakutenanalytics/ios-rakutenanalytics)  
 * `cd` to the repository folder
 * Run `bundle install --path vendor/bundle`
 
