@@ -20,7 +20,7 @@ const config = {
   url: 'https://rakutenanalytics.github.io',
 
   // for GHE
-  baseUrl: '/rakutenanalytics/rakuten-analytics-public-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
