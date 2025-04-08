@@ -17,17 +17,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://pages.ghe.rakuten-it.com/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://rakutenanalytics.github.io',
 
   // for GHE
-  baseUrl: '/rakutenanalytics/rakuten-analytics-documentation/',
+  baseUrl: '/rakutenanalytics/rakuten-analytics-public-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rakutenanalytics', // Usually your GitHub org/user name.
-  projectName: 'rakuten-analytics-documentation', // Usually your repo name.
+  projectName: 'rakuten-analytics-public-docs', // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: 'throw',
