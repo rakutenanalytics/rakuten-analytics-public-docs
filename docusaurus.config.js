@@ -17,7 +17,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://rakutenanalytics.github.io',
+  url: 'https://rakutenanalytics.github.io/',
 
   // for GHE
   baseUrl: '/rakuten-analytics-public-docs/',
