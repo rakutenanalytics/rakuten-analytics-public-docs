@@ -155,13 +155,6 @@ const config = {
       };
     },
     [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      { 
-        hashed: true,
-        language: ['en', 'zh', 'ja'],
-      },
-    ],
-    [
       '@docusaurus/plugin-google-gtag',
       {
         trackingID: 'G-81FVRG5RZZ', 
