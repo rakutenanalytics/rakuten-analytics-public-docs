@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Rakuten Analytics</ShortName>
+  <Description>Search Rakuten Analytics</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://rakutenanalytics.github.io/rakuten-analytics-public-docs/ja/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://rakutenanalytics.github.io/rakuten-analytics-public-docs/ja/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://rakutenanalytics.github.io/rakuten-analytics-public-docs/ja/opensearch.xml" />
+  <moz:SearchForm>https://rakutenanalytics.github.io/rakuten-analytics-public-docs/ja/</moz:SearchForm>
+</OpenSearchDescription>
