@@ -61,6 +61,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: '56KYHD3I32',
+        apiKey: '474f9fc61ce3a7bd742c31c396e90e2b',
+        indexName: 'rakutenanalytics_github_io_56kyhd3i32_pages',
+        contextualSearch: true,
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+        searchParameters: {},
+        searchPagePath: 'search',
+        insights: true,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       metadata: [
