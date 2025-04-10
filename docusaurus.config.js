@@ -67,10 +67,6 @@ const config = {
         indexName: 'Docusaurus Crawler',
         contextualSearch: true,
         externalUrlRegex: 'external\\.com|domain\\.com',
-        replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
-        },
         searchParameters: {},
         searchPagePath: 'search',
         insights: true,
