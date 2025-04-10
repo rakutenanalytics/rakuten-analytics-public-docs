@@ -63,7 +63,7 @@ const config = {
     ({
       algolia: {
         appId: '56KYHD3I32',
-        apiKey: '474f9fc61ce3a7bd742c31c396e90e2b',
+        apiKey: 'd317c4cfa97e983bcd51fa791231e669',
         indexName: 'rakutenanalytics_github_io_56kyhd3i32_pages',
         contextualSearch: true,
         externalUrlRegex: 'external\\.com|domain\\.com',
