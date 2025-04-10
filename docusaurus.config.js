@@ -64,7 +64,7 @@ const config = {
       algolia: {
         appId: '56KYHD3I32',
         apiKey: '474f9fc61ce3a7bd742c31c396e90e2b',
-        indexName: 'rakutenanalytics_github_io_56kyhd3i32_pages',
+        indexName: 'Docusaurus Crawler',
         contextualSearch: true,
         externalUrlRegex: 'external\\.com|domain\\.com',
         replaceSearchResultPathname: {
